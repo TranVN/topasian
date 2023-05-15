@@ -25,18 +25,14 @@
                             <a class="nav-link active" href="{{url('/')}}">HOME</a>
                         </li>
                         <li class="nav-item menu-item">
-                            <a class="nav-link" href="{{url('/services')}}">SERVICES</a>
+                            <a class="nav-link" href="#">SERVICES</a>
                             <ul class="drop-menu">
+                                <li class="drop-menu-item"> <a href="{{url('/product-inspection')}}"><em> Production Inspection</em></a></li>
+                                <li class="drop-menu-item"> <a href="{{url('/pre-product-inspection')}}"><em> Pre-Production Inspection</em></a></li>
+                                <li class="drop-menu-item"> <a href="{{url('/during-product-inspection')}}"><em>During Product Inspection（DPI）</em></a></li>
+                                <li class="drop-menu-item"> <a href="{{url('/pre-shipment-inspection')}}"><em> Pre-shipment Inspection</em></a></li>
+                                <li class="drop-menu-item"> <a href="{{url('/loading-supervision')}}"><em> Loading/Unloading Supervision</em></a></li>
 
-                                <li class="drop-menu-item"> <a href="#"><em>Initial Production
-                                            Inspection (IPI)</em></a>
-                                </li>
-
-                                <li class="drop-menu-item"> <a href="#"><em>During Product
-                                            Inspection（DPI）</em></a></li>
-
-                                <li class="drop-menu-item"> <a href="#"><em>Final Random
-                                            Inspection（FRI）</em></a></li>
 
                                 <li class="drop-menu-item"> <a href="#"><em>Container Loading
                                             supervision (CLS)</em></a>

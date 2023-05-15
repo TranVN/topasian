@@ -30,6 +30,10 @@
         @include('layouts.menu')
         <main class="pt-4">
             @yield('content')
+            @include('layouts.sidebar')
+            {{-- </div>
+            </div>
+            </div> --}}
         </main>
     </div>
 <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>

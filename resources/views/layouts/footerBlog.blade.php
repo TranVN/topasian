@@ -1,3 +1,27 @@
+<!-- copyright  -->
+<div class="copyRight ">
+<div class="container">
+<div class="row pt-3">
+    <div class="col-6 pt-2">
+        <p>Copyright © 2020 VISAT CO.,LTD All Rights Reserved</p>
+    </div>
+    <div class="col-6">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search..."
+                aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
 <div class="footer">
     <footer class="text-center text-lg-start text-muted">
         <!-- Section: Links  -->

@@ -23,10 +23,21 @@ Route::get('/contact', function () {
 Route::get('/news', function () {
     return view('pages.news');
 });
-Route::get('/services', function () {
+Route::get('/pre-shipment-inspection', function () {
     return view('pages.services');
 });
-
+Route::get('/product-inspection', function () {
+    return view('pages.productInspection');
+});
+Route::get('/during-product-inspection', function () {
+    return view('pages.duringProduction');
+});
+Route::get('/pre-product-inspection', function () {
+    return view('pages.preProductionInspection');
+});
+Route::get('/loading-supervision', function () {
+    return view('pages.loadingSupervision');
+});
 Auth::routes();
 
 Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
