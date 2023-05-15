@@ -1,53 +1,105 @@
-<nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-    <div class="container">
-        <a class="navbar-brand" href="{{ url('/') }}">
-            {{ config('app.name', 'Laravel') }}
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<div class="header">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Left Side Of Navbar -->
-            <ul class="navbar-nav me-auto">
-
-            </ul>
-
-            <!-- Right Side Of Navbar -->
-            <ul class="navbar-nav ms-auto">
-                <!-- Authentication Links -->
-                @guest
-                    @if (Route::has('login'))
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <div class="logo">
+                    <a class="mt-2 navbar-brand mt-lg-0" href="#">
+                        <img src="https://vnvis.com/wp-content/themes/img/logo.png" alt="Vis" loading="lazy" />
+                    </a>
+                </div>
+                <!-- Left links -->
+                <div class="navRight">
+                    <ul class="mb-2 navbar-nav me-auto mb-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="{{url('/')}}">HOME</a>
                         </li>
-                    @endif
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="{{url('/services')}}">SERVICES</a>
+                            <ul class="drop-menu">
 
-                    @if (Route::has('register'))
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                <li class="drop-menu-item"> <a href="#"><em>Initial Production
+                                            Inspection (IPI)</em></a>
+                                </li>
+
+                                <li class="drop-menu-item"> <a href="#"><em>During Product
+                                            Inspection（DPI）</em></a></li>
+
+                                <li class="drop-menu-item"> <a href="#"><em>Final Random
+                                            Inspection（FRI）</em></a></li>
+
+                                <li class="drop-menu-item"> <a href="#"><em>Container Loading
+                                            supervision (CLS)</em></a>
+                                </li>
+
+                                <li class="drop-menu-item"> <a href="#"><em>Full Inspection (100%
+                                            Inspection）</em></a></li>
+
+                                <li class="drop-menu-item"> <a href="#"><em>Sample
+                                            Evaluation(S/E)</em></a></li>
+
+                                <li class="drop-menu-item"> <a href="#"><em>AMAZON Compliance
+                                            Inspection</em></a></li>
+                            </ul>
                         </li>
-                    @endif
-                @else
-                    <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            {{ Auth::user()->name }}
-                        </a>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#">PRODUCT INSPECTION</a>
+                            <ul class="drop-menu">
 
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ route('logout') }}"
-                               onclick="event.preventDefault();
-                                             document.getElementById('logout-form').submit();">
-                                {{ __('Logout') }}
-                            </a>
+                                <li class="drop-menu-item"> <a href="{{url('/news')}}"><em>Initial Production
+                                            Inspection (IPI)</em></a>
+                                </li>
 
-                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                @csrf
-                            </form>
-                        </div>
-                    </li>
-                @endguest
-            </ul>
+                                <li class="drop-menu-item"> <a href="news_view_9.html"><em>During Product
+                                            Inspection（DPI）</em></a></li>
+
+                                <li class="drop-menu-item"> <a href="news_view_10.html"><em>Final Random
+                                            Inspection（FRI）</em></a></li>
+
+                                <li class="drop-menu-item"> <a href="news_view_11.html"><em>Container Loading
+                                            supervision (CLS)</em></a>
+                                </li>
+
+                                <li class="drop-menu-item"> <a href="news_view_12.html"><em>Full Inspection (100%
+                                            Inspection）</em></a></li>
+
+                                <li class="drop-menu-item"> <a href="news_view_13.html"><em>Sample
+                                            Evaluation(S/E)</em></a></li>
+
+                                <li class="drop-menu-item"> <a href="news_view_32.html"><em>AMAZON Compliance
+                                            Inspection</em></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">INDUCTRIES</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/news">NEWS</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="{{url('/contact')}}">CONTACT VIS</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
         </div>
-    </div>
-</nav>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+</div>

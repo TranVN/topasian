@@ -1,0 +1,767 @@
+p {
+  text-align: left;
+  color: #54595f;
+  font-family: "Roboto", Sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+.container {
+  width: 80%;
+}
+.logo img {
+  width: 65px;
+  height: 70px;
+}
+.navbar {
+  background-color: #ab2829 !important;
+}
+.nav-link {
+  color: white;
+  margin: 5px;
+}
+.collapse {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-nav .nav-link.active {
+  background-color: #262626;
+  color: white;
+  border-radius: 6px;
+}
+.navbar-nav .nav-link:hover {
+  background-color: #262626;
+  color: white;
+  border-radius: 6px;
+  transform: rotate(1turn);
+}
+.header .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  animation: slideDown 0.35s ease-out;
+}
+/* dropdown menu */
+
+.menu-item a {
+  text-decoration: none;
+  padding: 6px 10px;
+  color: #fff;
+  display: block;
+}
+
+.drop-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 100px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 5px;
+}
+
+.drop-menu-item {
+  width: 100%;
+  list-style: none;
+}
+.drop-menu-item a:hover {
+  color: red;
+}
+
+.drop-menu-item:hover {
+  background-color: #eee;
+}
+
+.drop-menu-item a {
+  text-decoration: none;
+  color: #555;
+}
+
+.menu-item:hover .drop-menu {
+  display: block;
+}
+/* end dropdown  */
+/* footer  */
+
+.drop-menuFooter {
+  padding: 0;
+}
+.drop-menu-itemFooter {
+  list-style: none;
+  border-bottom: 0.5px solid #54595f;
+  padding-bottom: 4px;
+}
+h6 {
+  color: white;
+}
+.drop-menu-itemFooter a {
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  font-family: "Roboto", Sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+.drop-menu-itemFooter a:hover {
+  color: #ab2829;
+}
+.grid {
+  gap: 5px !important;
+}
+
+.social img {
+  width: 45px;
+}
+/* end footer  */
+/* ---  */
+.overlay {
+  text-align: left;
+}
+.hTextoverlay {
+  padding-top: 15%;
+}
+.showcase {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://www.hqts.com/wp-content/uploads/2020/12/6666-scaled-1-1.jpg");
+  background-position: 0px -117px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcase .overlay {
+  width: 100%;
+  height: 550px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.heading-title {
+  margin-top: 10px;
+  font-size: 4em;
+}
+
+.showcase p {
+  margin-top: 8px;
+  font-size: 1.2em;
+}
+.elementor-divider {
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.divider {
+  color: #ab2829;
+  height: 0.25rem;
+  max-width: 5rem;
+  background-color: currentColor;
+}
+
+.btnOurService {
+  margin-top: 5%;
+  background-color: #ab2829;
+  text-align: center;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+}
+/* ourPhilosophy */
+.ourPhilosophy {
+  padding: 3rem 0;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+.dividerVision {
+  border-bottom: 3px solid #ab2829;
+  width: 4rem;
+}
+.pVision {
+  color: #ab2829;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.pOurPhilosophy {
+  color: #54595f;
+  font-family: "Roboto", Sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.4em;
+}
+.HQTS {
+  display: flex;
+  align-items: flex-end;
+  text-align: left;
+  color: #505b50;
+  font-family: "Roboto", Sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+/* ourMission */
+.row {
+  justify-content: center;
+}
+.ourMission {
+  padding: 4% 0;
+}
+.col-3 {
+  width: 22% !important;
+}
+.card1 {
+  box-shadow: 0px 21px 30px -21px rgba(0, 0, 0, 0.27);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  background-color: white;
+  border: none;
+}
+.card1 img {
+  padding: 5px;
+}
+.align-items-end {
+  align-content: flex-end;
+  display: inline-grid;
+  margin: 15px;
+  padding: 0;
+  border-bottom: 3px solid #ab2829;
+}
+.mission {
+  position: relative;
+}
+.h3Mission {
+  border-left: 3px solid #ab2829;
+  padding: 16px 0 0 16px;
+}
+.pMission {
+  padding: 10px 10px 0px 10px;
+  margin-bottom: 10%;
+}
+.overlayMission:hover {
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(69, 222, 132, 0) 0%,
+    #9d31331c 100%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  align-content: flex-end;
+}
+/* -- Quality Engineering */
+
+.overlay1 {
+  text-align: left;
+}
+.hTextoverlay1 {
+  padding-top: 10%;
+}
+.dividerVision {
+  margin-left: 20px;
+}
+.showcase1 {
+  width: 100%;
+  height: 1100px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/c6/11/cb/c611cb9b5923aac324f63af68a212c71.jpg");
+  /* background-position: 0px -117px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcase1 .overlay1 {
+  width: 100%;
+  height: 1100px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.heading-title1 {
+  margin-top: 10px;
+  font-size: 3em;
+  margin-left: 20px;
+}
+
+.showcase1 p {
+  margin-top: 8px;
+  font-size: 1.2em;
+}
+
+.elementor-divider1 {
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.divider1 {
+  color: #ab2829;
+  height: 0.25rem;
+  max-width: 5rem;
+  background-color: currentColor;
+}
+
+.btnOurService1 {
+  margin-top: 5%;
+  background-color: #ab2829;
+  text-align: center;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+}
+.pWeDo {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+/* We do item */
+.weDo {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+}
+.weDo img {
+  width: 100%;
+  /* padding-top: 10px; */
+}
+.h5WeDo {
+  color: #ab2829;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+.pWeDoItem {
+  text-align: left;
+  color: #505b50;
+  font-family: "Arial", Sans-serif;
+  font-weight: 400;
+}
+.learnMore {
+  width: 100%;
+}
+/* end Quality Engineering */
+/* OurSolution */
+.showcaseSoulution {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://www.hqts.com/wp-content/uploads/2020/12/6666-scaled-1-1.jpg");
+  background-image: url("https://www.hqts.com/wp-content/uploads/2022/04/555555-1.png");
+  background-position: 0px -117px;
+  background-size: cover;
+}
+.showcaseSoulution .overlaySoulution {
+  width: 100%;
+  height: 550px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.pOurSolution {
+  color: white;
+}
+.dividerOurSolution {
+  border-bottom: 3px solid #ab2829;
+  width: 4rem;
+}
+.btnOurSolution {
+  width: 100%;
+}
+.svgSolution {
+  border: 2px solid #ab2829;
+  padding: 25px 15px 15px 15px;
+}
+.colSolution {
+  text-align: center;
+}
+.headingSolution {
+  font-size: 18px;
+  color: #ab2829;
+  padding-top: 30px;
+}
+.pSolution {
+  text-align: center;
+}
+.colSolution {
+  text-align: center;
+  padding: 110px 20px 30px 10px;
+}
+/* End OurSolution */
+/* Industries */
+.Industries {
+  margin-top: 100px;
+}
+.dividerIndus {
+  border-bottom: 3px solid #ab2829;
+  width: 6rem;
+}
+.pIndus {
+  padding: 16px 0 0 16px;
+}
+.showcaseIndustries1 {
+  width: 100%;
+  height: 280px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://www.hqts.com/wp-content/uploads/2020/09/consumer.jpg");
+  background-position: 364px 1px;
+  background-size: cover;
+}
+.showcaseIndustries1 .overlayIndustries {
+  width: 100%;
+  height: 280px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.showcaseIndustries2 {
+  width: 100%;
+  height: 280px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://www.hqts.com/wp-content/uploads/2022/03/smart-industry-robot-arms-digital-factory-production-technology-1080x675.jpg.webp");
+  background-position: 364px 1px;
+  background-size: cover;
+}
+.showcaseIndustries2 .overlayIndustries {
+  width: 100%;
+  height: 280px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.showcaseIndustries3 {
+  width: 100%;
+  height: 280px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://www.hqts.com/wp-content/uploads/2021/07/istockphoto-855450864-612x612-1.jpg");
+  background-position: 364px 1px;
+  background-size: cover;
+}
+.showcaseIndustries3 .overlayIndustries {
+  width: 100%;
+  height: 280px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.showcaseIndustries4 {
+  width: 100%;
+  height: 280px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://www.hqts.com/wp-content/uploads/2020/04/ecommerce_protection_qc-1.jpg");
+  background-position: 364px 1px;
+  background-size: cover;
+}
+.showcaseIndustries4 .overlayIndustries {
+  width: 100%;
+  height: 280px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.showcaseIndustries5 {
+  width: 100%;
+  height: 280px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://www.hqts.com/wp-content/uploads/2021/01/HQTS_LP1.png");
+  background-position: 364px 1px;
+  background-size: cover;
+}
+.showcaseIndustries5 .overlayIndustries {
+  width: 100%;
+  height: 280px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.showcaseIndustries6 {
+  width: 100%;
+  height: 280px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://www.hqts.com/wp-content/uploads/2021/02/automotive.jpg");
+  background-position: 364px 1px;
+  background-size: cover;
+}
+.showcaseIndustries6 .overlayIndustries {
+  width: 100%;
+  height: 280px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.containerIndus {
+  width: 85%;
+  margin: auto;
+}
+.rowIndus {
+  padding: 0px 10px !important;
+}
+.rowIndus > .col-4 {
+  padding: 7px !important;
+}
+
+/* end Industries */
+/* Comanies */
+.colComanies {
+  padding: 35px 20px;
+}
+.colComanies img {
+  width: 125px;
+}
+/* end Comanies */
+/* learningHub */
+.learningHub {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  width: 30%;
+}
+.learningSVG {
+  margin-top: 20px;
+}
+.learningContent {
+  margin-top: 25px;
+}
+.learningContent p {
+  font-size: 13px;
+}
+.learningSVG svg {
+  color: #ab2829;
+  font-size: 30px;
+}
+.bgLearningHub {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/c6/11/cb/c611cb9b5923aac324f63af68a212c71.jpg");
+  /* background-position: 0px -117px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgLearningHub .overlayLearningHub {
+  width: 100%;
+  height: 800px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.hLearningHub {
+  padding-top: 6%;
+}
+/* end learningHub */
+/* Download */
+.showcaseDownLoad {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://www.hqts.com/wp-content/uploads/2022/03/back-view-business-engineer-2760241.jpg");
+  /* background-position: 0px -117px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcaseDownLoad .overlayDownload {
+  width: 100%;
+  height: 550px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.showcaseDownLoad1 {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://www.hqts.com/wp-content/uploads/2022/04/food-1.png");
+  /* background-position: 0px -117px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcaseDownLoad1 .overlayDownload1 {
+  width: 100%;
+  height: 550px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.headingDownload {
+  color: white;
+  font-size: 25px;
+  position: relative;
+}
+.supplier {
+  position: absolute;
+  bottom: -30px;
+  width: 195px;
+  height: 160px;
+  background-color: #ab2829;
+  padding: 30px;
+}
+.dividerSup {
+  width: 5%;
+  border-top: 4px solid white;
+}
+.supplier a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: left;
+  float: left;
+  margin-top: 10px;
+}
+.pop {
+  position: absolute;
+  background-color: #ab2829;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  bottom: 35px;
+}
+.pop a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.pop svg {
+  margin-bottom: 3px;
+}
+/* end Download */
+
+.latestNewItem img {
+  width: 100%;
+  height: 100%;
+}
+.latestNewItem a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: left;
+  float: left;
+  margin-top: 10px;
+}
+.latestNewItem p {
+  margin-bottom: 0;
+}
+/* ---  */
+.showcaseExperience {
+  width: 100%;
+  height: 435px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://www.hqts.com/wp-content/uploads/2021/08/solar-panel-QC-check.png");
+  /* background-position: 0px -117px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcaseExperience .overlayExperience {
+  width: 100%;
+  height: 435px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.heading-title1 {
+  margin-top: 10px;
+  font-size: 3em;
+  text-align: left;
+}
+.hExperience {
+  margin-top: 5%;
+}
+.hExperience p {
+  margin-top: 8px;
+  font-size: 1.2em;
+}
+.divider {
+  color: #ab2829;
+  height: 0.25rem;
+  max-width: 5rem;
+  background-color: currentColor;
+}
+
+.pExperience {
+  margin-left: 20px;
+  color: white;
+}
+.btnContact {
+  float: left;
+  margin-left: 20px;
+}
+.btnContactNow {
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: #ab2829;
+}
+.information > .col-5 {
+  direction: rtl;
+}
+/* end ---  */

@@ -1,0 +1,85 @@
+.bgBotHeader {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-image: url("https://vnvis.com/wp-content/uploads/2023/04/The-Importance-of-Third-Party-Inspections-in-Ensuring-Quality-and-Safety.png");
+  background-position: 0px -117px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.styleH2 {
+  margin-right: 30%;
+  padding-bottom: 7.5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: -16px;
+  color: #ab2829;
+}
+.contact {
+  padding-top: 3%;
+}
+.imgContact {
+  width: 100%;
+}
+.office h3 {
+  font-family: "utm-neo-sans-intel", sans-serif !important;
+  font-size: 1.25em;
+}
+.contactForm label {
+  display: inline-block;
+  width: 100%;
+  color: #222;
+  font-family: "utm-neo-sans-intel", sans-serif !important;
+  font-size: 15px;
+}
+.contactForm input {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding: 0 0.75em;
+  height: 2.507em;
+  font-size: 0.97em;
+  border-radius: 0;
+  max-width: 100%;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #fff;
+  color: #333;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: color 0.3s, border 0.3s, background 0.3s, opacity 0.3s;
+  margin-bottom: 5px;
+}
+.contactForm textarea {
+  height: 120px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+
+  font-size: 0.97em;
+  border-radius: 0;
+  max-width: 100%;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #fff;
+  color: #333;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: color 0.3s, border 0.3s, background 0.3s, opacity 0.3s;
+}
+.btnContactForm {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 15px;
+  background-color: #ab2829;
+}
+.copyRight {
+  background-color: #cdcccc;
+}
+#basic-addon2 {
+  padding: 10px;
+  background-color: #ab2829;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
+#basic-addon2 svg {
+  color: white;
+}
