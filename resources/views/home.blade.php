@@ -219,6 +219,46 @@
         </div>
     </section>
     <!-- End Our Solutions -->
+    {{-- hotline  --}}
+    <section class="section hotline dark " id="section_1204701762">
+        <div class="section-content relative container">
+            <div class="row" id="row-1221649977">
+                <div class="col small-12 large-12">
+                    <div class="col-inner text-right">
+                        <div class="hotline-top">
+                            <a class="reveal-icon" style="border-radius: 6px;" href="tel:+842432079388"
+                                    rel="noopener noreferrer"> <span
+                                        style="font-size: 19px; font-weight: 100; line-height: 19px;">Hotline:
+                                        +84 24 3207 9388</span> <i class="icon-phone"></i></a>
+                            <div style="margin-bottom: 0;">
+                                <a class="buttonRequest"
+                                    style="margin-right: 5px" href="/contact"
+                                    rel="noopener noreferrer"> <span >Send a request</span> <i class="icon-checkmark"></i></a>
+                                    <a class="buttonRequest" style="border-radius: 6px;"
+                                    href="mailto:Info@vnvis.com" rel="noopener noreferrer"> <span
+                                        style="font-weight: 100;">E-mail us</span> <i
+                                        class="icon-envelop"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- .section-content -->
+    </section>
+    {{-- end hotline  --}}
+    {{-- our company  --}}
+    <section class="Industries container">
+        <div class="d-flex pb-2 p-lg-2">
+            <div class="dividerIndus"></div>
+            <h3 class="pIndus" style="margin-bottom: 2px; color: #ab2829;"> Our Company</h3>
+            
+        </div>
+        <div class=" rowIndus">
+            <p>HQTS – Your Supply Chain Quality Management Provider </p>
+            <p>   HQTS is a leading global third-party quality control service provider dedicated to solving quality issues and creating a more robust supply chain.</p>
+
+        </div>
+    </section>
+    {{-- end our company  --}}
     <!-- Industries -->
     <section class="Industries container">
         <div class="d-flex pb-2 p-lg-2">
@@ -548,6 +588,7 @@
         </div>
     </section>
     <!-- end Companies Our Qualifications & Certifications -->
+
     <!-- Download  -->
     <section class=" container">
         <div class="d-flex pb-2 p-lg-2">

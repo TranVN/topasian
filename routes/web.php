@@ -38,6 +38,15 @@ Route::get('/pre-product-inspection', function () {
 Route::get('/loading-supervision', function () {
     return view('pages.loadingSupervision');
 });
+Route::get('/picking-service', function () {
+    return view('pages.pickingService');
+});
+Route::get('/full-inspection', function () {
+    return view('pages.fullInspection');
+});
+Route::get('/our-laboratory', function () {
+    return view('pages.ourLaboratory');
+});
 Auth::routes();
 
 Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

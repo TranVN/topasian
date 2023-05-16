@@ -26,26 +26,18 @@
                         </li>
                         <li class="nav-item menu-item">
                             <a class="nav-link" href="#">SERVICES</a>
+
                             <ul class="drop-menu">
                                 <li class="drop-menu-item"> <a href="{{url('/product-inspection')}}"><em> Production Inspection</em></a></li>
                                 <li class="drop-menu-item"> <a href="{{url('/pre-product-inspection')}}"><em> Pre-Production Inspection</em></a></li>
                                 <li class="drop-menu-item"> <a href="{{url('/during-product-inspection')}}"><em>During Product Inspection（DPI）</em></a></li>
                                 <li class="drop-menu-item"> <a href="{{url('/pre-shipment-inspection')}}"><em> Pre-shipment Inspection</em></a></li>
                                 <li class="drop-menu-item"> <a href="{{url('/loading-supervision')}}"><em> Loading/Unloading Supervision</em></a></li>
+                                <li class="drop-menu-item"> <a href="/full-inspection"><em>FullInspection (100% Inspection)</em></a></li>
 
+                                <li class="drop-menu-item"> <a href="/picking-service"><em>Sample Picking Service</em></a></li>
 
-                                <li class="drop-menu-item"> <a href="#"><em>Container Loading
-                                            supervision (CLS)</em></a>
-                                </li>
-
-                                <li class="drop-menu-item"> <a href="#"><em>Full Inspection (100%
-                                            Inspection）</em></a></li>
-
-                                <li class="drop-menu-item"> <a href="#"><em>Sample
-                                            Evaluation(S/E)</em></a></li>
-
-                                <li class="drop-menu-item"> <a href="#"><em>AMAZON Compliance
-                                            Inspection</em></a></li>
+                                <li class="drop-menu-item"> <a href="/our-laboratory"><em>Our Laboratory</em></a></li>
                             </ul>
                         </li>
                         <li class="nav-item menu-item">
@@ -83,7 +75,7 @@
                             <a class="nav-link" href="#">ABOUT US</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="/news">NEWS</a>
+                            <a class="nav-link" href="/news">LAB TESTING</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link " href="{{url('/contact')}}">CONTACT VIS</a>
