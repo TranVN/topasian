@@ -1,4 +1,7 @@
 @extends('layouts.blog')
+@section('title')
+<title>During Production Inspection (DUPRO)</title>
+@endsection
 @section('content')
 <div class="pageWrapper">
     <div class="container">

@@ -1,5 +1,7 @@
 @extends('layouts.blog')
-
+@section('title')
+<title>Pre-shipment Inspection</title>
+@endsection
 @section('content')
 <div class="pageWrapper">
     <div class="container">

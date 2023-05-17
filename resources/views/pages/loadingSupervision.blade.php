@@ -1,4 +1,9 @@
 @extends('layouts.blog')
+@section('title')
+<title>
+    Loading/Unloading Supervision
+</title>
+@endsection
 @section('content')
 <div class="pageWrapper">
     <div class="container">

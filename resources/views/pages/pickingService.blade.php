@@ -1,4 +1,7 @@
 @extends('layouts.blog')
+@section('title')
+<title>Sample Picking Service</title>
+@endsection
 @section('content')
 <div class="pageWrapper">
     <div class="container">

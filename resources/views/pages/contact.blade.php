@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+@section('title')
+<title>Contact</title>
+@endsection
 @section('content')
 <div class="bgBotHeader">
 </div>
@@ -16,21 +18,41 @@
             <div class="office">
                 <h2 class="styleH2"><b>OUR OFFICE</b></h2>
                 <hr>
-                <div class="py-2">
-                    <h3>HANOI, VIETNAM</h3>
-                    <p> 80B Nguyen Van Cu Street, Bo De Ward, Long Bien District, Hanoi,Vietnam</p>
-                </div>
+                <span class="spanContact">
+                We offer the highest level of service at competitive rates and tailor made the inspection plan for our customers. <br>
+
+                Our personnel offer in-depth experience in relevant industries. Our team is fluent in English and local languages and dialects to facilitate communication. <br>
+
+                UTS understand that customers demand more than basic services from their partners. We can assist with engineering and consulting services; We can assist with travel itineraries and airport transportation, provide translators for factory visits and negotiate impasses with vendors on your behalf.
+                </span>
                 <div class="py-2">
                     <h3>HO CHI MINH CITY, VIETNAM</h3>
-                    <p> No. 90 Tran Dinh Xu street, District 1, HCM City,Vietnam</p>
+                    <span class="spanContact">English name: TOP ASIA INSPECTION COMPANY LIMITED <br>
+                        Address: Room 302, Floor 3, Gems Building, 594-596 Cộng Hòa, Ward 13, Tan Binh District, Ho Chi Minh City, Vietnam, Zip Code: 700000 <br>
+                        Email: example@gmail.com <br>
+                        HP: +84 917198968
+                    </span>
                 </div>
                 <div class="py-2">
-                    <h3>HONGKONG</h3>
-                    <p> 3/F, Southtex Building, 51 Tsun Yip Street, Kwun Tong, Kowloon, HongKong</p>
+                    <h3>Guangzhou Office</h3>
+                    <span class="spanContact"> Room 2215, Building 2,Xinkai Square,No 22, YongSheng West Road, Nanhai District, Foshan,Guangdong Province, China, Zip code: 528200 <br>
+                    Tel: (+86 757)86783812/+8618925940255
+                    </span>
                 </div>
                 <div class="py-2">
-                    <h3>CHINA</h3>
-                    <p> No. 798, Waihuan North Road, Chongchuan District, Nantong City, JiangSu,China</p>
+                    <h3>Hangzhou Office</h3>
+                    <span class="spanContact">
+                        Room 1502, E Building, No.307 LiuHe Road, PuYan Street, Binjiang District, Hangzhou City,ZheJiang Province, China, Zip Code: 310051 <br>
+                        Tel: (+86 571)87423201/88175227/+8613958194553
+                    </span>
+                </div>
+                <div class="py-2">
+                    <h3>Hong Kong Office</h3>
+                    <span class="spanContact">
+                        Room 1405,14/F., Lucky Centre, 165Wanchai Road, Wanchai, Hong Kong <br>
+                        Tel: +852-92734633 <br>
+
+                    </span>
                 </div>
             </div>
         </div>

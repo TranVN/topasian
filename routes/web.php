@@ -47,6 +47,54 @@ Route::get('/full-inspection', function () {
 Route::get('/our-laboratory', function () {
     return view('pages.ourLaboratory');
 });
+Route::get('/testing-cope', function () {
+    return view('pages.testingCope');
+});
+Route::get('/factory-audit', function () {
+    return view('pages.factoryAudit');
+});
+Route::get('/textile', function () {
+    return view('pages.textile');
+});
+Route::get('/homeware', function () {
+    return view('pages.homeware');
+});
+
+Route::get('/recreational', function () {
+    return view('pages.recreational');
+});
+Route::get('/electrical', function () {
+    return view('pages.electrical');
+});
+Route::get('/printing-packaging', function () {
+    return view('pages.printingPackaging');
+});
+Route::get('/fashion-accessories', function () {
+    return view('pages.fashionAccessories');
+});
+Route::get('/bodycare', function () {
+    return view('pages.bodycare');
+});
+Route::get('/agriculture', function () {
+    return view('pages.agriculture');
+});
+Route::get('/constructions-mechanical-items', function () {
+    return view('pages.mechanicalItems');
+});
+Route::get('/toy-children-testing', function () {
+    return view('pages.childrenProductTesting');
+});
+Route::get('/california-proposition-65-compliance', function () {
+    return view('pages.caPropostion');
+});
+Route::get('/food-contact-tests', function () {
+    return view('pages.foodContact');
+});
+Route::get('/ce-rohs-reach', function () {
+    return view('pages.reach');
+});
+
+
 Auth::routes();
 
 Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -1077,3 +1077,11 @@
 #25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #26 {main}
 "} 
+[2023-05-17 16:33:43] local.ERROR: Command "php" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"php\" is not defined. at /Users/thongkieu/project/php/topasian/vendor/symfony/console/Application.php:702)
+[stacktrace]
+#0 /Users/thongkieu/project/php/topasian/vendor/symfony/console/Application.php(256): Symfony\\Component\\Console\\Application->find('php')
+#1 /Users/thongkieu/project/php/topasian/vendor/symfony/console/Application.php(168): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /Users/thongkieu/project/php/topasian/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/thongkieu/project/php/topasian/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 

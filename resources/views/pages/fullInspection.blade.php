@@ -1,4 +1,7 @@
 @extends('layouts.blog')
+@section('title')
+<title>Full Inspection (100% inspection)</title>
+@endsection
 @section('content')
 <div class="pageWrapper">
     <div class="container">

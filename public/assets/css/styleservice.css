@@ -8,9 +8,12 @@
 .serviceItem > .col-9 {
   width: 70% !important;
   padding-left: 0;
+  padding-right: 0;
 }
 .serviceItem > .col-3 {
-  width: 28% !important;
+    width: 28% !important;
+    border-left: 1px solid #ddd !important;
+    margin-left: -1px !important;
 }
 .pictureFuture img {
   width: 100%;

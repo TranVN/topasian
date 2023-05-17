@@ -48,7 +48,7 @@ p {
 
 .menu-item a {
     text-decoration: none;
-    padding: 6px 10px;
+    padding: 6px 5px;
     color: #fff;
     display: block;
 }
@@ -84,6 +84,15 @@ p {
 .menu-item:hover .drop-menu {
     display: block;
 }
+.colDropMenu li:first-child{
+    border-bottom: 2px solid #ab2829;
+}
+.colDropMenu li{
+    border-bottom: 1px solid #ddd;
+}
+.colDropMenu li:last-child{
+    border: none;
+}
 /* end dropdown  */
 /* footer  */
 
@@ -113,6 +122,9 @@ h6 {
     font-style: normal;
     text-decoration: none;
     line-height: 1.5em;
+}
+.dropMenu{
+    width: 51% !important;
 }
 .drop-menu-itemFooter a:hover {
     color: #ab2829;
@@ -182,6 +194,9 @@ h6 {
     color: white;
     padding: 10px 50px;
     border: none;
+}
+.headingTextService{
+    color: #ab2829;
 }
 /* ourPhilosophy */
 .ourPhilosophy {
@@ -799,3 +814,39 @@ h6 {
     direction: rtl;
 }
 /* end ---  */
+/* textile */
+#section_1360776418 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.single-page section ul li {
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 0px;
+    background: url(https://vnvis.com/wp-content/themes/img/muiten_bottom.png) no-repeat left top 10px !important;
+    padding-left: 15px !important;
+    color: #21b6d7;
+}
+.single-page ol li {
+    list-style: none;
+    margin-left: 0;
+    background: url(https://vnvis.com/wp-content/themes/img/checked.png) no-repeat left top 7px;
+    padding-left: 20px;
+}
+.rpbt_shortcode li {
+    width: 100%;
+    margin-bottom: 0;
+    padding-left: 18px;
+    list-style: none;
+    background: url(https://vnvis.com/wp-content/themes/img/active.png) no-repeat left top 8px;
+}
+.dadoc a {
+    color: #c0c0c0;
+}
+
+/* end textile  */

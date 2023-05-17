@@ -83,3 +83,14 @@
 #basic-addon2 svg {
   color: white;
 }
+.spanContact{
+    text-align: left;
+    color: #54595f;
+    font-family: "Roboto", Sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+}
