@@ -3,7 +3,7 @@
 <div class="container">
 <div class="row pt-3">
     <div class="col-6 pt-2">
-        <p>Copyright © 2020 VISAT CO.,LTD All Rights Reserved</p>
+        <p>Copyright © 2020 TOPASIA CO.,LTD All Rights Reserved</p>
     </div>
     <div class="col-6">
         <div class="input-group mb-3">
@@ -81,7 +81,7 @@
                         <ul class="drop-menuFooter">
 
                             <li class="drop-menu-itemFooter"> <a href="news_view_8.html"><em>Email:
-                                        Info@vnvis.com</em></a>
+                                        Info@topasia.com</em></a>
                             </li>
 
                             <li class="drop-menu-itemFooter"> <a href="news_view_9.html"><em>Tel: +84 24

@@ -84,7 +84,7 @@
                 <h2 class="heading-title1">Quality Engineering<br>
                     For The Future</h2>
 
-                <div class="row">
+                <div class="row rowWeDo">
                     <div class="col-3 weDo">
                         <img src="https://www.hqts.com/wp-content/uploads/elementor/thumbs/quality-engineer-1-plxm0wjvq11lxd7jnzmbwig0fq69w0ch4em5czdyu8.png"
                             alt="">
@@ -419,7 +419,7 @@
             <div class="container hLearningHub">
                 <div class="d-flex pb-2 p-lg-2">
                     <div class="dividerIndus"></div>
-                    <h3 class="pIndus" style="margin-bottom: 2px; color: white;">Quality Learning Hub</h3>
+                    <h3 class="pIndus" style="margin-bottom: 2px; color: #ab2829;">Quality Learning Hub</h3>
                 </div>
 
                 <div class="row">
@@ -590,7 +590,7 @@
     <!-- end Companies Our Qualifications & Certifications -->
 
     <!-- Download  -->
-    <section class=" container">
+    <section class=" container downloadIndus">
         <div class="d-flex pb-2 p-lg-2">
             <div class="dividerIndus"></div>
             <h3 class="pIndus" style="margin-bottom: 2px; color: #ab2829;">Industries we Serve</h3>

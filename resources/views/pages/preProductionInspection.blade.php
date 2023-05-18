@@ -84,19 +84,19 @@
                                 check whether the samples meet the quality standards and expectations of the
                                 buyer.</li>
                         </ul>
-                        <h2><strong>Why should you partner with VIS for your Pre-production Inspection?</strong>
+                        <h2><strong>Why should you partner with TOPASIA for your Pre-production Inspection?</strong>
                         </h2>
-                        <p>Partnering with VIS for your pre-production inspection is essential for many reasons.
+                        <p>Partnering with TOPASIA for your pre-production inspection is essential for many reasons.
                             Firstly, we provide you with experienced and trained inspectors familiar with the
                             manufacturing process. They will be able to identify any potential issues and
                             provide recommendations for any immediate corrective action.</p>
                         <p>Secondly, we have a good reputation for producing quality inspection reports. This
                             ensures that the manufacturer receives accurate and detailed reports that are easy
                             to understand and act upon.</p>
-                        <p>Finally, partnering with us at VIS will help your business build customer trust.</p>
+                        <p>Finally, partnering with us at TOPASIA will help your business build customer trust.</p>
                         <p>In conclusion, pre-production inspection is crucial in ensuring product quality and
                             customer satisfaction. Manufacturers can take corrective action by detecting
-                            problems early before they become more significant problems. With VIS as your
+                            problems early before they become more significant problems. With TOPASIA as your
                             partner for pre-production inspection, you can ensure that your products meet the
                             desired specifications and are of the highest quality, leading to a good reputation
                             and customer loyalty.</p>

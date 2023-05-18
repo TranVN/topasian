@@ -1,8 +1,8 @@
 <div class="footer">
-    <footer class="text-center text-lg-start text-muted">
+    <footer class=" text-lg-start text-muted">
         <!-- Section: Links  -->
         <section class="bg-black">
-            <div class="container pt-5 text-center text-md-start">
+            <div class="container pt-5 text-md-start">
                 <!-- Grid row -->
                 <div class="mt-3 row">
                     <!-- Grid column -->
@@ -119,7 +119,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="{{asset('assets/js/amination.js')}}"></script>
+<script type="text/javascript" src="{{url('assets/js/amination.js')}}"></script>
 
 
 

@@ -42,12 +42,12 @@
 
                                         <li class="drop-menu-item"> <a href="{{url('/picking-service')}}"><em>Sample Picking Service</em></a></li>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-3 colDropMenu">
                                         <li class="drop-menu-item"> <a href="#"><em><b>TESTING</b></em></a></li>
                                         <li class="drop-menu-item"> <a href="{{url('/our-laboratory')}}"><em>Our Laboratory</em></a></li>
                                         <li class="drop-menu-item"> <a href="{{url('/testing-cope')}}"><em>Testing Cope</em></a></li>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-3 colDropMenu">
                                         <li class="drop-menu-item"> <a href="#"><em> <b>FACTORY AUDIT</b></em></a></li>
                                         <li class="drop-menu-item"> <a href="{{url('/factory-audit')}}"><em> Factory Audit</em></a></li>
                                     </div>
@@ -59,26 +59,42 @@
 
                         <li class="nav-item menu-item">
                             <a class="nav-link" href="#">INDUCTRIES</a>
-                            <ul class="drop-menu">
-                                <li class="drop-menu-item"> <a href="{{url('/textile')}}"><em>Textile &amp; Footwear  </em></a>
-                                </li>
+                            <ul class="drop-menu dropMenu">
+                                <div class="row rowDropMenu">
+                                    <div class="col-4 colDropMenu">
+                                        <li class="drop-menu-item"> <a href="#"><em><b>CONSUMER PRODUCT AND RETAIL</b></em></a>
+                                    </li>
+                                    <li class="drop-menu-item"> <a href="{{url('/textile')}}"><em>Textile &amp; Footwear  </em></a>
+                                    </li>
 
-                                <li class="drop-menu-item"> <a href="{{url('/homeware')}}"><em>Homeware, Gardenware</em></a>
-                                 </li>
-                                 <li class="drop-menu-item"> <a href="{{url('/recreational')}}"><em>Toys &amp; Recreational </em></a>
-                                 </li>
-                                 <li class="drop-menu-item"> <a href="{{url('/electrical')}}"><em>Electrical &amp; Electronic product </em></a>
-                                 </li>
-                                 <li class="drop-menu-item"> <a href="{{url('/printing-packaging')}}"><em>Printing &amp; packaging</em></a>
-                                 </li>
-                                 <li class="drop-menu-item"> <a href="{{url('/fashion-accessories')}}"><em>Fashion &amp; Accessories</em></a>
-                                 </li>
-                                 <li class="drop-menu-item"> <a href="{{url('/bodycare')}}"><em>Bodycare</em></a>
-                                 </li>
-                                 <li class="drop-menu-item"> <a href="{{url('/agriculture')}}"><em>Agriculture</em></a>
-                                 </li>
-                                 <li class="drop-menu-item"> <a href="{{url('/constructions-mechanical-items')}}"><em>Constructions & Mechanical items</em></a>
-                                 </li>
+                                    <li class="drop-menu-item"> <a href="{{url('/homeware')}}"><em>Homeware, Gardenware</em></a>
+                                     </li>
+                                     <li class="drop-menu-item"> <a href="{{url('/recreational')}}"><em>Toys &amp; Recreational </em></a>
+                                     </li>
+                                     <li class="drop-menu-item"> <a href="{{url('/electrical')}}"><em>Electrical &amp; Electronic product </em></a>
+                                     </li>
+                                     <li class="drop-menu-item"> <a href="{{url('/printing-packaging')}}"><em>Printing &amp; packaging</em></a>
+                                     </li>
+                                     <li class="drop-menu-item"> <a href="{{url('/fashion-accessories')}}"><em>Fashion &amp; Accessories</em></a>
+                                     </li>
+                                     <li class="drop-menu-item"> <a href="{{url('/bodycare')}}"><em>Bodycare</em></a></div>
+
+                                    <div class="col-4 colDropMenu">
+                                        <li class="drop-menu-item"> <a href="#"><em><b>FOOD AND AGRICULTURE</b></em></a></li>
+                                        <li class="drop-menu-item"> <a href="{{url('/agriculture')}}"><em>Agriculture</em></a></li>
+                                    </div>
+
+                                    <div class="col-4 colDropMenu">
+                                        <li class="drop-menu-item"> <a href="#"><em><b>INDUSTRIAL PRODUCT</b></em></a></li>
+                                        <li class="drop-menu-item"> <a href="{{url('/constructions-mechanical-items')}}"><em>Constructions & Mechanical items</em></a>
+                                        </li>
+                                    </div>
+                                </div>
+
+
+
+
+
                             </ul>
                         </li>
 
@@ -88,7 +104,7 @@
 
                         <li class="nav-item menu-item">
                             <a class="nav-link" href="#">LAB TESTING</a>
-                            <ul class="drop-menu">
+                            <ul class="drop-menu dropMenuLab">
                                 <li class="drop-menu-item"> <a href="{{url('/toy-children-testing')}}"><em>Toys & Children's Product Testing</em></a>
                                 </li>
 

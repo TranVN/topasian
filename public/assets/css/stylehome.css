@@ -27,12 +27,12 @@ p {
     display: flex;
     justify-content: space-between;
 }
-.navbar-nav .nav-link.active {
+.navbar-nav li.active {
     background-color: #262626;
     color: white;
     border-radius: 6px;
 }
-.navbar-nav .nav-link:hover {
+.nav-link:hover {
     background-color: #262626;
     color: white;
     border-radius: 6px;
@@ -93,6 +93,16 @@ p {
 .colDropMenu li:last-child{
     border: none;
 }
+/* .dropMenu {
+    position: absolute !important;
+    top:100% !important;
+    right:10% !important;
+}
+.dropMenuLab{
+    position: absolute !important;
+    top:100% !important;
+    right:14% !important;
+} */
 /* end dropdown  */
 /* footer  */
 
@@ -109,7 +119,7 @@ h6 {
 }
 .grid{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 .drop-menu-itemFooter a {
     text-decoration: none;
@@ -329,7 +339,7 @@ h6 {
 
 .showcase1 p {
     margin-top: 8px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .elementor-divider1 {
@@ -362,6 +372,7 @@ h6 {
     background-color: white;
     padding: 15px;
     margin: 10px;
+    text-align:center;
 }
 .weDo img {
     width: 100%;
@@ -371,12 +382,13 @@ h6 {
     color: #ab2829;
     margin-top: 10px;
     padding-top: 5px;
+    text-align: left;
 }
 .pWeDoItem {
     text-align: left;
     color: #505b50;
     font-family: "Arial", Sans-serif;
-    font-weight: 400;
+    font-weight: 200;
 }
 .learnMore {
     width: 100%;

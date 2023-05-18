@@ -23,12 +23,12 @@
                     </div>
                     <div class="contentService">
 
-                        <h2>VIS – Accredited testing service provider</h2>
-                        <div>As a leading and accredited testing service provider in Hanoi, VIS Laboratory is
+                        <h2>TOPASIA – Accredited testing service provider</h2>
+                        <div>As a leading and accredited testing service provider in Hanoi, TOPASIA Laboratory is
                             proud to be authorized by the Vietnam Quality Standards Bureau (VN107) for a testing
                             service license, with a quality accreditation certificate issued by the Vietnam
                             Bureau of Accreditation (BoA). With a team of professional and experienced experts,
-                            VIS has become a trusted partner for over 1,000 clients in Vietnam and worldwide.
+                            TOPASIA has become a trusted partner for over 1,000 clients in Vietnam and worldwide.
                             Our commitment to continuous improvement and delivering the best results ensure your
                             service satisfaction.</div>
                         <div></div>
@@ -45,7 +45,7 @@
                             supply chain management ensures that you can confidently sell your products anywhere
                             and provide your consumers remain safe and satisfied.</div>
                         <div></div>
-                        <div>At VIS Laboratory, we are dedicated to providing our clients with the highest
+                        <div>At TOPASIA Laboratory, we are dedicated to providing our clients with the highest
                             quality testing services and delivering accurate and reliable results. With our
                             state-of-the-art facilities and experienced team, you can trust us to meet your
                             testing needs and help you bring quality products to the market. <a
