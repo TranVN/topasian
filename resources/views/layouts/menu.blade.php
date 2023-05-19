@@ -15,7 +15,7 @@
                 <!-- Navbar brand -->
                 <div class="logo">
                     <a class="mt-2 navbar-brand mt-lg-0" href="#">
-                        <img src="https://vnvis.com/wp-content/themes/img/logo.png" alt="Vis" loading="lazy" />
+                        <img src="{{ asset('assets/images/logo.jpg') }}" alt="Vis" loading="lazy" />
                     </a>
                 </div>
                 <!-- Left links -->
@@ -98,7 +98,7 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item ">
+                        <li class="nav-item d-none ">
                             <a class="nav-link" href="#">ABOUT US</a>
                         </li>
 

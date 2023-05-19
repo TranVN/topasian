@@ -51,28 +51,57 @@
                         chain in
                         order to solve our
                         customers’ challenges anywhere, anytime</p>
+                    <div class="overlayMission">
+                    </div>
 
                 </div>
-                <div class="col-3 align-items-end">
-                    <h3 class="h3Mission">Mission</h3>
-                    <p class="pMission">To be able to offer total quality services across the global supply
-                        chain in
-                        order to solve our
-                        customers’ challenges anywhere, anytime</p>
-
+                <div class="col-3 align-items-end mission">
+                    <h3 class="h3Mission">Vision</h3>
+                    <p class="pMission">To consistently provide fast, flexible, detailed and sustainable solutions across the whole supply chain for a more efficient and greener world</p>
+                    <div class="overlayMission">
+                    </div>
                 </div>
-                <div class="col-3 align-items-end">
-                    <h3 class="h3Mission">Mission</h3>
-                    <p class="pMission">To be able to offer total quality services across the global supply
-                        chain in
-                        order to solve our
-                        customers’ challenges anywhere, anytime</p>
-
+                <div class="col-3 align-items-end mission">
+                    <h3 class="h3Mission">Technology</h3>
+                    <p class="pMission">To offer our global network of quality technical experts together with our digital supply chain solutions, in order to deliver a transparent, real-time, total supply chain management experience</p>
+                    <div class="overlayMission">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- end section Our Philosophy -->
+     {{-- our company  --}}
+     <section class=" container">
+        <div class="d-flex pb-2 p-lg-2">
+            <div class="dividerIndus"></div>
+            <h3 class="pIndus" style="margin-bottom: 2px; color: #ab2829;"> Our Company</h3>
+
+        </div>
+        <div class=" rowIndus">
+            <h5> Top Asian Spection – Your Supply Chain Quality Management Provider</h5>
+               <p style="text-align: justify"> Top Asian Spection is a leading global third-party quality control service provider dedicated to solving quality issues and creating a more robust supply chain.
+
+               </p>
+               <p style="text-align: justify">
+                The quality performance of a good factory varies by production lines due to multiple factors such as, people, equipment, materials, methods, production environment and a plethora of other factories.
+                By performing inspections, companies are able to identify problems early with the goal of eliminating the causes. Utilized correctly, inspections save money by eliminating process problems and ensuring that the end product meets customers' requirements and expectations.
+                Top Asian Spection will help you to reduce risks, improve efficiency, protect your company’s reputation. Your products always stay on the top of the quality and it helps you to achieve a competitive edge in the global markets. UTS offers one stop services detailed below as well as the possibility to schedule service requests and access our reports through our professional engineers. We offer the highest level of service at competitive rates and tailor made the inspection plan for our customers.
+               </p>
+               <p style="text-align: justify">
+                Top Asian Spection personnel offer in-depth experience in relevant industries. Our team is fluent in English and local languages and dialects to facilitate communication.
+                Top Asian Spection understand that customers demand more than basic services from their partners. We can assist with engineering and consulting services; We can assist with travel itineraries and airport transportation, provide translators for factory visits and negotiate impasses with vendors on your behalf.
+               </p>
+               <p  style="text-align: justify">
+                TOP ASIA engineer team covers alllocations in Vietnam
+                Zhejiang; Jiangsu; AnHui; JiangXi; Guangdong; Guangxi; Hunan; Sichuan; Hubei; Henan; Hebei; Fujian; Shandong.</p>
+                <p  style="text-align: justify">
+                TOP ASIA engineer teams in over sea countries:
+                China, Hong Kong; Taiwan; South Korea; Thailand; Malaysia; India;Indonesia; Philippines; Bangladesh; Pakistan; Turkey; Cambodia.</p>
+
+        </div>
+    </section>
+    {{-- end our company  --}}
     <!-- Quality Engineering we do -->
     <section class="showcase1">
         <div class="overlay1">
@@ -133,7 +162,7 @@
     </section>
     <!-- end Quality Engineering -->
     <!-- Our Solutions -->
-    <section class="ourSolutions pt-5 container">
+    <section class="ourSolutions pt-5 container d-none">
         <div class="row">
             <div class="col-6 colSolution">
                 <div class="row mb-5">
@@ -220,7 +249,7 @@
     </section>
     <!-- End Our Solutions -->
     {{-- hotline  --}}
-    <section class="section hotline dark " id="section_1204701762">
+    <section class="section hotline dark d-none" id="section_1204701762">
         <div class="section-content relative container">
             <div class="row" id="row-1221649977">
                 <div class="col small-12 large-12">
@@ -245,22 +274,9 @@
         </div><!-- .section-content -->
     </section>
     {{-- end hotline  --}}
-    {{-- our company  --}}
-    <section class="Industries container">
-        <div class="d-flex pb-2 p-lg-2">
-            <div class="dividerIndus"></div>
-            <h3 class="pIndus" style="margin-bottom: 2px; color: #ab2829;"> Our Company</h3>
-            
-        </div>
-        <div class=" rowIndus">
-            <p>HQTS – Your Supply Chain Quality Management Provider </p>
-            <p>   HQTS is a leading global third-party quality control service provider dedicated to solving quality issues and creating a more robust supply chain.</p>
 
-        </div>
-    </section>
-    {{-- end our company  --}}
     <!-- Industries -->
-    <section class="Industries container">
+    <section class="Industries container d-none">
         <div class="d-flex pb-2 p-lg-2">
             <div class="dividerIndus"></div>
             <h3 class="pIndus" style="margin-bottom: 2px; color: #ab2829;">Industries we Serve</h3>
@@ -379,7 +395,7 @@
     </section>
     <!-- end Industries -->
     <!-- Companies -->
-    <section class="Companies container">
+    <section class="Companies container d-none">
         <div class="d-flex pb-2 p-lg-2">
             <div class="dividerIndus"></div>
             <h3 class="pIndus" style="margin-bottom: 2px; color: #ab2829;">Companies we have worked with</h3>
@@ -414,7 +430,7 @@
 
     <!-- end Companies -->
     <!-- Quality learning  -->
-    <section class=" bgLearningHub">
+    <section class=" bgLearningHub d-none">
         <div class="overlayLearningHub">
             <div class="container hLearningHub">
                 <div class="d-flex pb-2 p-lg-2">
@@ -555,7 +571,7 @@
     </section>
     <!-- end quality learning  -->
     <!-- Companies  Our Qualifications & Certifications-->
-    <section class="Companies container">
+    <section class="Companies container d-none">
         <div class="d-flex pb-2 p-lg-2">
             <div class="dividerIndus"></div>
             <h3 class="pIndus" style="margin-bottom: 2px; color: #ab2829;">Our Qualifications & Certifications</h3>
@@ -590,7 +606,7 @@
     <!-- end Companies Our Qualifications & Certifications -->
 
     <!-- Download  -->
-    <section class=" container downloadIndus">
+    <section class=" container downloadIndus d-none">
         <div class="d-flex pb-2 p-lg-2">
             <div class="dividerIndus"></div>
             <h3 class="pIndus" style="margin-bottom: 2px; color: #ab2829;">Industries we Serve</h3>
@@ -651,7 +667,7 @@
     </section>
     <!-- end download  -->
     <!-- latest news -->
-    <section class="Industries container mb-5">
+    <section class="Industries container mb-5 d-none">
         <div class="d-flex pb-2 p-lg-2">
             <div class="dividerIndus"></div>
             <h3 class="pIndus" style="margin-bottom: 2px; color: #ab2829;">Read the latest news</h3>
@@ -687,7 +703,7 @@
     </section>
     <!-- end latest news  -->
     <!-- Experience elem  -->
-    <section class="showcaseExperience">
+    <section class="showcaseExperience d-none">
         <div class="overlayExperience">
             <div class="container hExperience">
                 <div class="d-flex pb-2 m-lg-2">
@@ -702,7 +718,7 @@
         </div>
     </section>
     <!-- end information elem -->
-    <section class="container py-4">
+    <section class="container py-4 d-none">
         <div class="row d-flex information">
             <div class="col-7">
                 <h3>Need more information on our services?</h3>

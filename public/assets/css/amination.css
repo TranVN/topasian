@@ -11,10 +11,10 @@
 /* Smartphones (landscape) ----------- */
 @media only screen and (max-width: 460px) {
     /* Styles */
-    .showcase1{
-        height:268vh ;
+    .showcase1 {
+        height: 268vh;
     }
-    .bgLearningHub{
+    .bgLearningHub {
         background-image: none;
         height: 190vh;
     }
@@ -39,6 +39,9 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .container {
+        padding: 0 !important;
+    }
     .showcase .overlay {
         width: 100%;
         height: 100%;
@@ -53,103 +56,107 @@
         font-size: 2em;
     }
     .btnOurService {
-
         width: 100%;
     }
-    .ourPhilosophyItem .col-6{
-        width:100%;
+    .ourPhilosophyItem .col-6 {
+        width: 100%;
     }
-    .HQTS{
+    .HQTS {
         display: none;
     }
-    .ourMission{display:none;}
+    .ourMission {
+        display: none;
+    }
     .heading-title1 {
         /* margin-top: 10px; */
         font-size: 2em;
         /* text-align: left; */
     }
-    .rowWeDo>.col-3{
-        width:100% !important ;
+    .rowWeDo > .col-3 {
+        width: 100% !important ;
     }
-    .container{
-        width:95% !important;
-        max-width:95% !important;
+    .container {
+        width: 95% !important;
+        max-width: 95% !important;
     }
-    .showcase1{
-        height:370vh;
+    .showcase1 {
+        height: 370vh;
     }
-    .weDo img{
-        width:90%;
+    .weDo img {
+        width: 90%;
     }
-    .ourSolutions .col-6{
+    .ourSolutions .col-6 {
         width: 100% !important;
         margin: 4% !important;
     }
     .showcaseSoulution {
         display: none;
     }
-    .colSolution .mb-5{
+    .colSolution .mb-5 {
         margin-bottom: 0 !important;
     }
-    #section_1204701762{
+    #section_1204701762 {
         display: none;
     }
-    .Industries{
+    .Industries {
         display: none;
     }
-    .Companies{
+    .Companies {
         display: none;
     }
-    .bgLearningHub{
+    .bgLearningHub {
         background-image: none;
         height: 180vh;
     }
-    .bgLearningHub .overlayLearningHub{
+    .bgLearningHub .overlayLearningHub {
         background-color: white;
     }
-    .learningHub{
+    .learningHub {
         width: 100%;
     }
-    .learningSVG{
+    .learningSVG {
         margin: auto;
     }
-    .hLearningHub .row{
+    .hLearningHub .row {
         display: block;
     }
-    .learningContent{
-        width:100%;
+    .learningContent {
+        width: 100%;
     }
-    .learningContent p{
+    .learningContent p {
         text-align: center;
     }
-    .downloadIndus{
+    .downloadIndus {
         display: none;
     }
     footer {
         text-align: left !important;
     }
     /* --- blog */
-    .pageWrapper{
+    .pageWrapper {
         text-align: center;
     }
-    .serviceItem .col-9{
+    .serviceItem .col-9 {
         width: 100% !important;
-        
     }
-    .serviceItem >.col-3{
+    .serviceItem > .col-3 {
         width: 100% !important;
         border-left: none !important;
-        
     }
-    .colLeft{
+    .colLeft {
         border-right: none;
     }
-    .colRight{
+    .colRight {
         border-left: none;
     }
     iframe {
         width: 100%;
     }
 }
-
+@media only screen and (max-width: 1024px) {
+    /* Styles */
+    .ourMission > .row > .col-3 {
+        width: 21% !important;
+    }
+}
 /* end reponsive  */
